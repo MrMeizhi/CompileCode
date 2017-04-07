@@ -13,3 +13,11 @@
   HelloWorld.c是c语言源程序模块
 
   CustomError.py当初是想写个自定义错误模块,不知道后面有没有用上
+
+  使用范例:
+
+    -s 编译源程序
+    -l 词法分析表
+    -g 语法分析表
+
+    python CodeCompile.py  -s HelloWorld.c -l WordsTable.yaml -g GrammarTable.yaml
