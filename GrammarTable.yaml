@@ -1,0 +1,8 @@
+funcDefine:
+  void \w+\(\){(.*)}
+varDefine:
+  - \w+ \w+;
+  - \w+ \w+=\w+;
+Assignment:
+  - \w+=\w+[\*\+-/]\w;
+  - \w+=\w+;
